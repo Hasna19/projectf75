@@ -20,8 +20,9 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r figure one, echo=FALSE}
-plot(pressure)
+```{r correlation heatmap, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("code", "02_correlation_map.R"))
+
 ```
 
 ## MUAC
